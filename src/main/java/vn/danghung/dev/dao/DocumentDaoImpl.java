@@ -139,4 +139,7 @@ public class DocumentDaoImpl extends AbstractDao implements DocumentDao {
         }
     }
 
+    public void adddition(){
+
+    }
 }
