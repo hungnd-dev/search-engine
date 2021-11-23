@@ -15,6 +15,6 @@ public class ScheduleTask {
     //u can remove comment to get new index file then comment this method to run test faster
     @Scheduled(fixedDelay = Long.MAX_VALUE, initialDelay = 1000)
     public void runOnceOnStartup(){
-//        docService.indexing();
+        docService.indexing();
     }
 }
