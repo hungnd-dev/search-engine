@@ -138,4 +138,8 @@ public class DocumentDaoImpl extends AbstractDao implements DocumentDao {
             releaseConnect(conn, stmt, rs);
         }
     }
+
+    public void adddition(){
+
+    }
 }
